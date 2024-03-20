@@ -1,7 +1,7 @@
 <template>
     <header>
         <h1>
-            <img src="../assets/logo2.png" alt="logo">
+            <img class = "logo" src="../assets/logo2.png" alt="logo">
         </h1>
         <button class="button" @click="alterarTema">
             {{ textoBotao }}
@@ -51,5 +51,10 @@
             padding: 2.5rem;
             height: auto;
         }
+    }
+
+    .logo {
+        width: 30vh;
+        margin-bottom: 1rem;
     }
 </style>
